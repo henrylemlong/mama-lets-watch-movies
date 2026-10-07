@@ -1,0 +1,674 @@
+[
+ {
+  "event": "Gotham Awards nominations",
+  "date": "2026-10-27",
+  "tiers": [
+   {
+    "points": 10,
+    "categories": [
+     "Best Screenplay",
+     "Breakthrough Director",
+     "Breakthrough Performer",
+     "Documentary Feature",
+     "International Feature"
+    ]
+   },
+   {
+    "points": 15,
+    "categories": [
+     "Best Feature",
+     "Best Director",
+     "Outstanding Lead Performance",
+     "Outstanding Supporting Performance"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "AARP Movies for Grownups nominations",
+  "date": "TBA",
+  "tiers": [
+   {
+    "points": 10,
+    "categories": [
+     "Best Movie for Grownups"
+    ]
+   },
+   {
+    "points": 5,
+    "categories": [
+     "Any other category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Gotham Awards winners",
+  "date": "2026-11-30",
+  "tiers": [
+   {
+    "points": 15,
+    "categories": [
+     "Best Screenplay",
+     "Breakthrough Director",
+     "Breakthrough Performer",
+     "Documentary Feature",
+     "International Feature",
+     "Special Category (e.g., Ensemble)"
+    ]
+   },
+   {
+    "points": 25,
+    "categories": [
+     "Best Feature",
+     "Best Director",
+     "Outstanding Lead Performance",
+     "Outstanding Supporting Performance"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Independent Spirit nominations",
+  "date": "2026-12-02",
+  "tiers": [
+   {
+    "points": 5,
+    "categories": [
+     "First Feature",
+     "First Screenplay",
+     "Documentary Feature",
+     "International Feature",
+     "Cinematography",
+     "Editing",
+     "John Cassavetes Award"
+    ]
+   },
+   {
+    "points": 15,
+    "categories": [
+     "Best Feature",
+     "Best Director",
+     "Best Lead Performance",
+     "Best Supporting Performance",
+     "Best Breakthrough Performance",
+     "Best Screenplay"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Golden Globe nominations",
+  "date": "2026-12-04",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Picture (Drama)",
+     "Best Picture (Musical/Comedy)"
+    ]
+   },
+   {
+    "points": 15,
+    "categories": [
+     "Cinematic and Box Office Achievement",
+     "Best Director",
+     "Best Actor, Drama",
+     "Best Actress, Drama",
+     "Best Actor, Musical/Comedy",
+     "Best Actress, Musical/Comedy",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Screenplay",
+     "Best Foreign Film",
+     "Best Animated Feature",
+     "Best Score",
+     "Best Song"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Critics' Choice nominations",
+  "date": "2026-12-07",
+  "tiers": [
+   {
+    "points": 15,
+    "categories": [
+     "Best Picture",
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay"
+    ]
+   },
+   {
+    "points": 5,
+    "categories": [
+     "Young Actor/Actress",
+     "Acting Ensemble",
+     "Cinematography",
+     "Editing",
+     "Costume Design",
+     "Production Design",
+     "Score",
+     "Song",
+     "Sound",
+     "Hair/Makeup",
+     "Visual Effects",
+     "Animated Feature",
+     "Comedy Feature",
+     "Foreign-Language Film",
+     "Stunt Design"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Oscar shortlists",
+  "date": "2026-12-15",
+  "tiers": [
+   {
+    "points": 5,
+    "categories": [
+     "Placement on any shortlist"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "National Society of Film Critics",
+  "date": "2027-01-02",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Picture"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Screenplay",
+     "Best Cinematography"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Critics' Choice winners",
+  "date": "2027-01-03",
+  "tiers": [
+   {
+    "points": 25,
+    "categories": [
+     "Best Picture",
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Young Actor/Actress",
+     "Acting Ensemble",
+     "Cinematography",
+     "Editing",
+     "Costume Design",
+     "Production Design",
+     "Score",
+     "Song",
+     "Sound",
+     "Hair/Makeup",
+     "Visual Effects",
+     "Animated Feature",
+     "Comedy Feature",
+     "Foreign-Language Film",
+     "Stunt Design"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Actor Awards nominations",
+  "date": "2027-01-06",
+  "tiers": [
+   {
+    "points": 25,
+    "categories": [
+     "Best Ensemble Cast"
+    ]
+   },
+   {
+    "points": 20,
+    "categories": [
+     "Best Male Actor",
+     "Best Female Actor",
+     "Best Supporting Male Actor",
+     "Best Supporting Female Actor"
+    ]
+   },
+   {
+    "points": 5,
+    "categories": [
+     "Any other category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Directors Guild nominations",
+  "date": "2027-01-07",
+  "tiers": [
+   {
+    "points": 15,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Producers Guild nominations",
+  "date": "2027-01-08",
+  "tiers": [
+   {
+    "points": 15,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Writers Guild nominations",
+  "date": "2027-01-08",
+  "tiers": [
+   {
+    "points": 10,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Golden Globe winners",
+  "date": "2027-01-10",
+  "tiers": [
+   {
+    "points": 35,
+    "categories": [
+     "Best Picture (Drama)",
+     "Best Picture (Musical/Comedy)"
+    ]
+   },
+   {
+    "points": 25,
+    "categories": [
+     "Cinematic and Box Office Achievement",
+     "Best Director",
+     "Best Actor, Drama",
+     "Best Actress, Drama",
+     "Best Actor, Musical/Comedy",
+     "Best Actress, Musical/Comedy",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Screenplay",
+     "Best Foreign Film",
+     "Best Animated Feature",
+     "Best Score",
+     "Best Song"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "BAFTA nominations",
+  "date": "2027-01-19",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Picture",
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "British Film",
+     "British Debut",
+     "Animated Film",
+     "Documentary Film",
+     "Film Not in the English Language",
+     "Casting",
+     "Children's and Family Film",
+     "Cinematography",
+     "Editing",
+     "Costume Design",
+     "Production Design",
+     "Original Score",
+     "Hair/Makeup",
+     "Special Visual Effects",
+     "Sound"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Oscar nominations",
+  "date": "2027-01-21",
+  "tiers": [
+   {
+    "points": 50,
+    "categories": [
+     "Best Picture"
+    ]
+   },
+   {
+    "points": 25,
+    "categories": [
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay",
+     "Best Animated Feature",
+     "Best Documentary Feature",
+     "Best International Feature"
+    ]
+   },
+   {
+    "points": 15,
+    "categories": [
+     "Best Cinematography",
+     "Best Costume Design",
+     "Best Production Design",
+     "Best Hair/Makeup",
+     "Best Sound",
+     "Best Visual Effects",
+     "Best Film Editing",
+     "Best Original Song",
+     "Best Original Score",
+     "Best Casting"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Directors Guild winners",
+  "date": "2027-01-30",
+  "tiers": [
+   {
+    "points": 30,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Writers Guild winners",
+  "date": "2027-02-13",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "BAFTA winners",
+  "date": "2027-02-21",
+  "tiers": [
+   {
+    "points": 35,
+    "categories": [
+     "Best Picture",
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay"
+    ]
+   },
+   {
+    "points": 20,
+    "categories": [
+     "British Film",
+     "British Debut",
+     "Animated Film",
+     "Documentary Film",
+     "Film Not in the English Language",
+     "Casting",
+     "Children's and Family Film",
+     "Cinematography",
+     "Editing",
+     "Costume Design",
+     "Production Design",
+     "Original Score",
+     "Hair/Makeup",
+     "Special Visual Effects",
+     "Sound"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Producers Guild winners",
+  "date": "2027-02-27",
+  "tiers": [
+   {
+    "points": 30,
+    "categories": [
+     "Any category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Actor Awards winners",
+  "date": "2027-02-28",
+  "tiers": [
+   {
+    "points": 50,
+    "categories": [
+     "Best Ensemble Cast"
+    ]
+   },
+   {
+    "points": 35,
+    "categories": [
+     "Best Male Actor",
+     "Best Female Actor",
+     "Best Supporting Male Actor",
+     "Best Supporting Female Actor"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Any other category"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Independent Spirit winners",
+  "date": "2027-03-06",
+  "tiers": [
+   {
+    "points": 25,
+    "categories": [
+     "Best Feature",
+     "Best Director",
+     "Best Lead Performance",
+     "Best Supporting Performance",
+     "Best Breakthrough Performance",
+     "Best Screenplay"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "First Feature",
+     "First Screenplay",
+     "Documentary Feature",
+     "International Feature",
+     "Cinematography",
+     "Editing",
+     "John Cassavetes Award",
+     "Robert Altman Award"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "Oscar winners",
+  "date": "2027-03-14",
+  "tiers": [
+   {
+    "points": 100,
+    "categories": [
+     "Best Picture"
+    ]
+   },
+   {
+    "points": 75,
+    "categories": [
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Original Screenplay",
+     "Best Adapted Screenplay",
+     "Best Animated Feature",
+     "Best Documentary Feature",
+     "Best International Feature"
+    ]
+   },
+   {
+    "points": 50,
+    "categories": [
+     "Best Cinematography",
+     "Best Costume Design",
+     "Best Production Design",
+     "Best Hair/Makeup",
+     "Best Sound",
+     "Best Visual Effects",
+     "Best Film Editing",
+     "Best Original Song",
+     "Best Original Score",
+     "Best Casting"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "NY Film Critics Circle",
+  "date": "TBA",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Film"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Best Director",
+     "Best Actor",
+     "Best Actress",
+     "Best Supporting Actor",
+     "Best Supporting Actress",
+     "Best Screenplay",
+     "Best Animated Film",
+     "Best Cinematography",
+     "Best Nonfiction Film",
+     "Best Foreign-Language Film",
+     "Best First Film"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "LA Film Critics Association",
+  "date": "TBA",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Film"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Best Director",
+     "Best Lead Performance",
+     "Best Supporting Performance",
+     "Best Screenplay",
+     "Best Animated Feature",
+     "Breakthrough Performance",
+     "Best Directorial Debut",
+     "Best Foreign-Language Film",
+     "Best Documentary",
+     "Best Ensemble",
+     "Outstanding Achievement in Cinematography"
+    ]
+   }
+  ]
+ },
+ {
+  "event": "National Board of Review",
+  "date": "TBA",
+  "tiers": [
+   {
+    "points": 20,
+    "categories": [
+     "Best Film"
+    ]
+   },
+   {
+    "points": 15,
+    "categories": [
+     "Top 10 Best Films list"
+    ]
+   },
+   {
+    "points": 10,
+    "categories": [
+     "Any other award (director, acting, screenplay, craft, etc.)"
+    ]
+   }
+  ]
+ }
+]

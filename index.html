@@ -47,6 +47,46 @@ details[open] .chev{transform:rotate(-135deg)}
 .bd span:first-child small{color:var(--mute)}
 .empty{color:var(--mute);font-size:14px;margin:0 0 10px;padding:0 2px}
 footer{margin-top:28px;color:var(--mute);font-size:12px}
+
+nav{display:flex;gap:6px;margin:0 0 18px;border-bottom:1px solid var(--line)}
+nav a{padding:10px 14px;color:var(--mute);text-decoration:none;font-weight:600;border-bottom:2px solid transparent;margin-bottom:-1px}
+nav a[aria-current=page]{color:var(--accent);border-color:var(--accent)}
+nav a:focus-visible{outline:2px solid var(--accent)}
+[hidden]{display:none!important}
+.post h2{font:700 24px/1.2 Georgia,serif;margin:0 0 6px}
+.post .meta{color:var(--accent);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0 0 6px}
+.post .dek{color:var(--mute);font-size:17px;margin:0 0 16px}
+.post p{margin:0 0 14px}
+.post h3{font:700 19px Georgia,serif;margin:26px 0 8px}
+.pr{display:grid;gap:10px;padding:0;list-style:none;margin:0 0 8px}
+.pr li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px;display:grid;grid-template-columns:40px 1fr;gap:4px 12px}
+.pr .n{font:700 26px Georgia,serif;color:var(--accent);grid-row:span 3;text-align:center}
+.pr .tm{font-weight:700;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.pr .tm span{font-weight:500;color:var(--mute);font-size:13px}
+.pr .f{font-size:12px;color:var(--mute)}
+.pr .tk{font-size:15px;margin:0}
+.src{font-size:13px;color:var(--mute)}.src a{color:var(--accent)}
+.olist{display:grid;gap:8px;list-style:none;padding:0;margin:0 0 18px}
+.olist a{display:block;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:inherit;text-decoration:none}
+.olist b{display:block;font-family:Georgia,serif}.olist small{color:var(--mute)}
+fieldset{border:1px solid var(--line);border-radius:12px;background:var(--card);padding:14px;margin:0 0 16px}
+legend{padding:0 6px;font-weight:700}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px}
+label{font-size:12px;color:var(--mute);display:grid;gap:3px;flex:1 1 140px}
+select,input,button{font:inherit;color:var(--ink);background:rgba(2,11,18,.6);border:1px solid var(--line);border-radius:8px;padding:8px;min-width:0}
+button{cursor:pointer;background:var(--accent);color:#04141f;font-weight:700;border:0}
+button.ghost{background:none;color:var(--mute);border:1px solid var(--line);font-weight:500}
+button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid var(--gold)}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 0;padding:0;list-style:none}
+.chips li{background:rgba(79,227,208,.12);border:1px solid var(--line);border-radius:99px;padding:4px 6px 4px 10px;font-size:13px;display:flex;gap:6px;align-items:center}
+.chips button{padding:0 7px;background:none;color:var(--mute);font-size:16px;line-height:1}
+.tbl{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.tbl th{font-size:11px;text-align:right;color:var(--mute);font-weight:500;padding:4px 6px;text-transform:uppercase;letter-spacing:.06em}
+.tbl th:nth-child(2){text-align:left}
+.tbl td{padding:9px 6px;border-top:1px solid var(--line);text-align:right}
+.tbl td:nth-child(2){text-align:left;overflow-wrap:anywhere}
+.up{color:var(--pos)}.dn{color:var(--neg)}
+.hint{font-size:13px;color:var(--mute);margin:0 0 12px}
 </style>
 </head>
 <body>
@@ -55,9 +95,39 @@ footer{margin-top:28px;color:var(--mute);font-size:12px}
   <p class="tag">Movies Fantasy League · Season 6</p>
   <h1><svg viewBox="0 0 120 60" aria-hidden="true"><path d="M2 30c10-18 34-26 58-22 14 2 26 8 36 14l18-12c2 10-1 20-8 26 7 6 10 16 8 26L96 50c-10 6-22 9-36 9C34 59 12 48 2 30z" transform="translate(0 -4) scale(1 .9)"/><circle cx="26" cy="26" r="3" fill="#04141f"/></svg><span>Mama Lets Watch Movies</span></h1>
   <p class="sub" id="sub">Loading…</p>
-  <div class="note" id="note" hidden></div>
-  <ol id="board"></ol>
-  <footer>Unofficial viewer, sinking deeper by the week, for <a href="https://www.vulture.com/movies-league/">Vulture’s Movies Fantasy League</a>. Box-office points are computed from Box Office Mojo and update every Tuesday, right after Vulture’s leaderboard; critic, audience and awards points are added as they’re awarded.</footer>
+  <nav aria-label="Sections"><a href="#standings" data-tab="standings">Standings</a><a href="#news" data-tab="news">News</a><a href="#analytics" data-tab="analytics">Analytics</a></nav>
+
+  <section class="view" id="v-standings">
+    <div class="note" id="note" hidden></div>
+    <ol id="board"></ol>
+  </section>
+
+  <section class="view" id="v-news" hidden></section>
+
+  <section class="view" id="v-analytics" hidden>
+    <p class="hint">Build a what-if. Add hypothetical awards, scores or box office and see how the race changes. Your scenario is saved in the page link, so you can share it.</p>
+    <fieldset><legend>Add a result</legend>
+      <div class="row">
+        <label>Type<select id="a-type"><option value="award">Award nomination or win</option><option value="box">Final box office</option><option value="critic">Metascore</option><option value="audience">Letterboxd rating</option></select></label>
+        <label>Movie<select id="a-movie"></select></label>
+      </div>
+      <div class="row" id="a-award">
+        <label>Event<select id="a-event"></select></label>
+        <label>Category<select id="a-cat"></select></label>
+      </div>
+      <div class="row" id="a-box" hidden>
+        <label>Final domestic gross ($M)<input id="a-gross" type="number" min="0" step="1" value="150"></label>
+        <label>Weekends at #1<input id="a-weeks" type="number" min="0" step="1" value="0"></label>
+      </div>
+      <div class="row" id="a-critic" hidden><label>Metascore (0–100)<input id="a-meta" type="number" min="0" max="100" value="80"></label></div>
+      <div class="row" id="a-audience" hidden><label>Letterboxd average (0–5)<input id="a-lb" type="number" min="0" max="5" step="0.1" value="3.8"></label></div>
+      <div class="row"><button id="a-add" type="button">Add to scenario</button><button id="a-clear" type="button" class="ghost">Clear all</button></div>
+      <ul class="chips" id="chips"></ul>
+    </fieldset>
+    <table class="tbl" id="sim"><thead><tr><th>#</th><th>Team</th><th>Now</th><th>What-if</th><th>Move</th></tr></thead><tbody></tbody></table>
+    <p class="hint" style="margin-top:12px">Box office, Metascore and Letterboxd entries replace that film’s current points in that category. Awards are added on top. Nothing here changes the real standings.</p>
+  </section>
+  <footer>Unofficial viewer for <a href="https://www.vulture.com/movies-league/">Vulture’s Movies Fantasy League</a>. Box-office points are computed from Box Office Mojo and update every Tuesday, right after Vulture’s leaderboard; critic, audience and awards points are added as they’re awarded.</footer>
 </main>
 <script>
 const bub=document.getElementById('bubbles');
@@ -76,20 +146,120 @@ function movieHTML(m) {
   return `<li><details><summary><span class="t">${esc(m.title)}<small>${esc(statusText(m))}</small></span><span class="mp ${cls(m.points)}">${fmt(m.points)}</span><i class="chev"></i></summary>${bd}</details></li>`;
 }
 
-fetch('data.json?t=' + Date.now()).then(r => r.json()).then(d => {
-  const when = new Date(d.generatedAt).toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
-  $('#sub').innerHTML = `${d.players.length} players · refreshed ${esc(when)}` + (d.vultureUpdated ? ` · Vulture leaderboard: ${esc(d.vultureUpdated)}` : '');
+let DATA, POSTS = [], AWARDS = [];
+const BOX_BONUS=[[25,10],[50,15],[75,15],[100,20],[125,15],[150,15],[175,15],[200,25]];
+const CRIT=[[0,-10],[20,-5],[40,0],[50,10],[60,20],[70,40],[80,70],[90,100]];
+const LBX=[[0,-10],[1,-5],[2,0],[2.5,10],[3,40],[3.5,70],[4,100]];
+const band=(v,b)=>b.reduce((a,[lo,p])=>v>=lo?p:a,null);
+const boxPts=(m,w)=>Math.floor(m)+BOX_BONUS.reduce((s,[t,p])=>s+(m>=t?p:0),0)+20*w;
+
+function renderStandings(d){
   const mismatch = d.players.some(p => p.total !== p.official);
   if (mismatch || !d.boxOfficeLive) {
     $('#note').hidden = false;
     $('#note').textContent = !d.boxOfficeLive
-      ? 'Box Office Mojo couldn’t be reached on the last refresh, so totals fall back to Vulture’s official numbers where possible.'
-      : 'Totals here are live; Vulture’s official leaderboard only updates on Tuesdays at noon ET, so a few players show an “official” number that differs.';
+      ? 'Box Office Mojo couldn’t be reached on the last refresh, so box-office points may be missing.'
+      : 'Totals here are computed from live box office; Vulture’s official leaderboard may differ slightly.';
   }
   $('#board').innerHTML = d.players.map(p => {
     const diff = p.total !== p.official ? `<small>official ${p.official}</small>` : '<small>points</small>';
     return `<li class="${p.rank === 1 ? 'r1' : ''}"><details><summary><span class="rank">${p.rank}</span><span class="name">${esc(p.name)}<small>${p.movies.length} movies</small></span><span class="pts">${p.total}${diff}</span><i class="chev"></i></summary><ul class="movies">${p.movies.map(movieHTML).join('')}</ul></details></li>`;
   }).join('');
+}
+
+const fmtDate = s => new Date(s + 'T12:00:00').toLocaleDateString([], {month:'long', day:'numeric', year:'numeric'});
+function renderNews(id){
+  const el = $('#v-news');
+  const post = POSTS.find(p => p.id === id);
+  if (!post) {
+    el.innerHTML = `<ul class="olist">${POSTS.map(p => `<li><a href="#news/${esc(p.id)}"><small>${esc(fmtDate(p.date))} · ${esc(p.week)}</small><b>${esc(p.title)}</b><small>${esc(p.dek)}</small></a></li>`).join('')}</ul>`;
+    if (POSTS.length === 1) location.replace('#news/' + POSTS[0].id);
+    return;
+  }
+  const prev = POSTS.find(p => p.date < post.date);
+  el.innerHTML = `<article class="post"><a class="src" href="#news">← All posts</a>
+    <p class="meta" style="margin-top:12px">${esc(fmtDate(post.date))} · ${esc(post.week)}</p><h2>${esc(post.title)}</h2><p class="dek">${esc(post.dek)}</p>
+    ${post.intro.map(t => `<p>${esc(t)}</p>`).join('')}
+    <h3>The rankings</h3>
+    <ol class="pr">${post.rankings.map(r => {
+      const mv = r.prev == null ? '' : r.prev === r.rank ? '—' : r.prev > r.rank ? `<b class="up">▲${r.prev-r.rank}</b>` : `<b class="dn">▼${r.rank-r.prev}</b>`;
+      return `<li><span class="n">${r.rank}</span><span class="tm">${esc(r.team)}<span>${mv} projected ~${r.projected.toLocaleString()}</span></span><p class="tk">${esc(r.take)}</p><span class="f">Key films: ${r.films.map(esc).join(' · ')}</span></li>`;
+    }).join('')}</ol>
+    ${post.sections.map(s => `<h3>${esc(s.heading)}</h3>${s.body.map(t => `<p>${esc(t)}</p>`).join('')}`).join('')}
+    <p class="src">Sources: ${post.sources.map(s => `<a href="${esc(s.url)}" rel="noopener">${esc(s.label)}</a>`).join(' · ')}</p></article>`;
+}
+
+/* ---------- analytics ---------- */
+let scenario = [];
+const encode = () => { try { return btoa(unescape(encodeURIComponent(JSON.stringify(scenario)))); } catch { return ''; } };
+function decode(s){ try { return JSON.parse(decodeURIComponent(escape(atob(s)))); } catch { return []; } }
+const movieMap = () => { const m = {}; DATA.players.forEach(p => p.movies.forEach(x => m[x.title] = x)); return m; };
+
+function describe(h){
+  if (h.type==='award') return `${h.movie}: ${h.event} — ${h.cat} (+${h.pts})`;
+  if (h.type==='box') return `${h.movie}: $${h.gross}M${h.weeks?`, ${h.weeks} wk at #1`:''} → ${boxPts(h.gross,h.weeks)} box-office pts`;
+  if (h.type==='critic') return `${h.movie}: Metascore ${h.val} (${band(h.val,CRIT)>0?'+':''}${band(h.val,CRIT)})`;
+  return `${h.movie}: Letterboxd ${h.val}★ (${band(h.val,LBX)>0?'+':''}${band(h.val,LBX)})`;
+}
+function simulate(){
+  const mm = movieMap();
+  // per-movie scenario points
+  const adj = {};
+  const over = {}; // title -> {box,critic,audience}
+  scenario.forEach(h => {
+    if (h.type==='award') adj[h.movie] = (adj[h.movie]||0) + h.pts;
+    else { over[h.movie] = over[h.movie] || {}; over[h.movie][h.type] = h.type==='box' ? boxPts(h.gross,h.weeks) : h.type==='critic' ? band(h.val,CRIT) : band(h.val,LBX); }
+  });
+  const pts = t => { const m = mm[t.title]; let v = m.points + (adj[t.title]||0);
+    for (const [k,val] of Object.entries(over[t.title]||{})) v += val - m.byKind[k]; return v; };
+  const rows = DATA.players.map(p => ({name:p.name, now:p.total, nowRank:p.rank, sim:p.movies.reduce((s,m)=>s+pts(m),0), hits:p.movies.filter(m=>adj[m.title]||over[m.title]).map(m=>m.title)}));
+  rows.sort((a,b)=>b.sim-a.sim||a.name.localeCompare(b.name));
+  let r=0,prev=null; rows.forEach((x,i)=>{ if(x.sim!==prev){r=i+1;prev=x.sim;} x.rank=r; });
+  $('#sim tbody').innerHTML = rows.map(x => {
+    const mv = x.nowRank - x.rank; const d = x.sim - x.now;
+    return `<tr><td>${x.rank}</td><td>${esc(x.name)}${x.hits.length?`<br><small style="color:var(--mute)">${x.hits.map(esc).join(', ')}</small>`:''}</td><td>${x.now}</td><td><b>${x.sim}</b>${d?`<br><small class="${d>0?'up':'dn'}">${d>0?'+':''}${d}</small>`:''}</td><td>${mv>0?`<b class="up">▲${mv}</b>`:mv<0?`<b class="dn">▼${-mv}</b>`:'—'}</td></tr>`;
+  }).join('');
+  $('#chips').innerHTML = scenario.map((h,i)=>`<li>${esc(describe(h))}<button type="button" data-i="${i}" aria-label="Remove">×</button></li>`).join('');
+}
+function syncHash(){ const base = '#analytics'; history.replaceState(null,'', scenario.length ? `${base}/${encode()}` : base); }
+function initAnalytics(){
+  const mm = movieMap(), own = {};
+  DATA.players.forEach(p => p.movies.forEach(m => own[m.title]=(own[m.title]||0)+1));
+  $('#a-movie').innerHTML = Object.keys(mm).sort((a,b)=>own[b]-own[a]||a.localeCompare(b)).map(t=>`<option value="${esc(t)}">${esc(t)} (${own[t]} team${own[t]>1?'s':''})</option>`).join('');
+  $('#a-event').innerHTML = AWARDS.map((e,i)=>`<option value="${i}">${esc(e.event)} · ${esc(e.date==='TBA'?'date TBA':fmtDate(e.date))}</option>`).join('');
+  const fillCats = () => { const e = AWARDS[$('#a-event').value]; $('#a-cat').innerHTML = e.tiers.flatMap((t,ti)=>t.categories.map(c=>`<option value="${ti}|${esc(c)}">${esc(c)} (+${t.points})</option>`)).join(''); };
+  const showType = () => ['award','box','critic','audience'].forEach(k => $('#a-'+k).hidden = $('#a-type').value!==k);
+  $('#a-event').onchange = fillCats; $('#a-type').onchange = showType; fillCats(); showType();
+  $('#a-add').onclick = () => {
+    const movie = $('#a-movie').value, type = $('#a-type').value;
+    if (type==='award') { const e = AWARDS[$('#a-event').value]; const [ti,cat] = $('#a-cat').value.split('|'); scenario.push({type, movie, event:e.event, cat, pts:e.tiers[ti].points}); }
+    else if (type==='box') { if (!mm[movie].boxEligible) { alert(movie+' opened before Oct 2, so it earns no box-office points.'); return; }
+      scenario = scenario.filter(h=>!(h.type==='box'&&h.movie===movie)); scenario.push({type, movie, gross:+$('#a-gross').value||0, weeks:+$('#a-weeks').value||0}); }
+    else { scenario = scenario.filter(h=>!(h.type===type&&h.movie===movie)); scenario.push({type, movie, val:+(type==='critic'?$('#a-meta').value:$('#a-lb').value)}); }
+    simulate(); syncHash();
+  };
+  $('#a-clear').onclick = () => { scenario = []; simulate(); syncHash(); };
+  $('#chips').onclick = e => { const i = e.target.dataset.i; if (i!=null) { scenario.splice(+i,1); simulate(); syncHash(); } };
+  simulate();
+}
+
+function route(){
+  if (!DATA) return;
+  const [tab='standings', arg] = location.hash.slice(1).split('/');
+  const t = ['standings','news','analytics'].includes(tab) ? tab : 'standings';
+  document.querySelectorAll('.view').forEach(v => v.hidden = v.id !== 'v-'+t);
+  document.querySelectorAll('nav a').forEach(a => a.toggleAttribute('aria-current', a.dataset.tab===t) || a.removeAttribute('aria-current'));
+  document.querySelectorAll('nav a').forEach(a => a.dataset.tab===t ? a.setAttribute('aria-current','page') : a.removeAttribute('aria-current'));
+  if (t==='news') renderNews(arg);
+  if (t==='analytics' && arg && !scenario.length) { scenario = decode(arg); simulate(); }
+}
+
+Promise.all([fetch('data.json?t='+Date.now()).then(r=>r.json()), fetch('posts.json?t='+Date.now()).then(r=>r.json()), fetch('awards.json').then(r=>r.json())]).then(([d,p,a]) => {
+  DATA = d; POSTS = p.sort((x,y)=>y.date.localeCompare(x.date)); AWARDS = a;
+  const when = new Date(d.generatedAt).toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
+  $('#sub').innerHTML = `${d.players.length} players · refreshed ${esc(when)}` + (d.vultureUpdated ? ` · Vulture leaderboard: ${esc(d.vultureUpdated)}` : '');
+  renderStandings(d); initAnalytics(); route();
+  addEventListener('hashchange', route);
 }).catch(e => { $('#sub').textContent = 'Could not load standings.'; console.error(e); });
 </script>
 </body>

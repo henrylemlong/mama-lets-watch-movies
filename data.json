@@ -1,6 +1,6 @@
 {
  "league": "Mama Lets Watch Movies",
- "generatedAt": "2026-10-07T03:59:26+00:00",
+ "generatedAt": "2026-10-07T04:14:40+00:00",
  "vultureUpdated": "October 6, 2026",
  "vultureSource": "https://www.vulture.com/static/leaderboard/production/cmuec30my000h3b7egrtm2p6h.json",
  "totalPlayersOverall": 29230,
@@ -18,7 +18,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Godzilla Minus Zero",
@@ -26,7 +33,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Klara and the Sun",
@@ -34,7 +48,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Ramayana",
@@ -42,7 +63,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Ray Gunn",
@@ -50,7 +78,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Tangles",
@@ -58,7 +93,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Hunger Games: Sunrise on the Reaping",
@@ -66,7 +108,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wild Horse Nine",
@@ -74,7 +123,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -91,7 +147,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Dune: Part Three",
@@ -99,7 +162,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Fatherland",
@@ -107,7 +177,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "I Play Rocky",
@@ -115,7 +192,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -123,7 +207,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Gradiva",
@@ -131,7 +222,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wildwood",
@@ -139,7 +237,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -147,7 +252,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -164,7 +276,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Blue Heron",
@@ -172,7 +291,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Hexed",
@@ -180,7 +306,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Klara and the Sun",
@@ -188,7 +321,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -196,7 +336,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Madden",
@@ -204,7 +351,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Debut",
@@ -212,7 +366,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Invite",
@@ -220,7 +381,14 @@
      "release": "2026-06-26",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -237,7 +405,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "I Play Rocky",
@@ -245,7 +420,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "I Want Your Sex",
@@ -253,7 +435,14 @@
      "release": "2026-07-31",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Iron Boy",
@@ -261,7 +450,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Josephine",
@@ -269,7 +465,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Obsession",
@@ -277,7 +480,14 @@
      "release": "2026-05-15",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Poetic License",
@@ -285,7 +495,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Odyssey",
@@ -293,7 +510,14 @@
      "release": "2026-07-17",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -310,7 +534,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Blue Heron",
@@ -318,7 +549,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "I Play Rocky",
@@ -326,7 +564,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -334,7 +579,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -342,7 +594,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Debut",
@@ -350,7 +609,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Odyssey",
@@ -358,7 +624,14 @@
      "release": "2026-07-17",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -366,7 +639,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -383,7 +663,14 @@
      "release": "2026-08-28",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Dune: Part Three",
@@ -391,7 +678,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Moana",
@@ -399,7 +693,14 @@
      "release": "2026-07-10",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -407,7 +708,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Terrestrial",
@@ -415,7 +723,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Odyssey",
@@ -423,7 +738,14 @@
      "release": "2026-07-17",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Sheep Detectives",
@@ -431,7 +753,14 @@
      "release": "2026-05-08",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -439,7 +768,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -456,7 +792,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Iron Boy",
@@ -464,7 +807,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -472,7 +822,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Hunger Games: Sunrise on the Reaping",
@@ -480,7 +837,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Invite",
@@ -488,7 +852,14 @@
      "release": "2026-06-26",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Odyssey",
@@ -496,7 +867,14 @@
      "release": "2026-07-17",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wild Horse Nine",
@@ -504,7 +882,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wildwood",
@@ -512,7 +897,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -529,7 +921,14 @@
      "release": "2026-08-28",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Dune: Part Three",
@@ -537,7 +936,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Fjord",
@@ -545,7 +951,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Hershey",
@@ -553,7 +966,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -561,7 +981,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Paw Patrol: The Dino Movie",
@@ -569,7 +996,14 @@
      "release": "2026-08-14",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Tender Loving Care",
@@ -577,7 +1011,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Hunger Games: Sunrise on the Reaping",
@@ -585,7 +1026,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -602,7 +1050,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Jumanji: Open World",
@@ -610,7 +1065,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -618,7 +1080,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "NAZA",
@@ -626,7 +1095,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -634,7 +1110,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wicker",
@@ -642,7 +1125,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wild Horse Nine",
@@ -650,7 +1140,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -658,7 +1155,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -675,7 +1179,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -683,7 +1194,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -691,7 +1209,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Debut",
@@ -699,7 +1224,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The History of Concrete",
@@ -707,7 +1239,14 @@
      "release": "2026-09-18",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Whalefall",
@@ -715,7 +1254,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Wild Horse Nine",
@@ -723,7 +1269,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -731,7 +1284,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
@@ -748,7 +1308,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Iron Boy",
@@ -756,7 +1323,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "La Bola Negra",
@@ -764,7 +1338,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "Once Upon a Time in Harlem",
@@ -772,7 +1353,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Hunger Games: Sunrise on the Reaping",
@@ -780,7 +1368,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Invite",
@@ -788,7 +1383,14 @@
      "release": "2026-06-26",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "The Odyssey",
@@ -796,7 +1398,14 @@
      "release": "2026-07-17",
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": false,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     },
     {
      "title": "You Can See Everything",
@@ -804,7 +1413,14 @@
      "release": null,
      "gross": null,
      "points": 0,
-     "breakdown": []
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1

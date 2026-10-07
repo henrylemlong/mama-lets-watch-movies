@@ -1,0 +1,209 @@
+[
+ {
+  "id": "2026-10-06",
+  "date": "2026-10-06",
+  "week": "Preseason / Week 1",
+  "title": "Power Rankings, Week 1: Eleven Teams, Zero Points, Infinite Confidence",
+  "dek": "Nobody in this league has scored a point, so naturally I’m going to judge everyone.",
+  "intro": [
+   "Verity and Digger are the only films that have scored in the MFL so far, and none of our 11 rosters drafted either one. So the official leaderboard has all of us tied at 0, which means every one of you is currently first place and also last place. Enjoy it. It’s the last time that will be true.",
+   "These power rankings are not the standings. They rank each roster by where I expect it to finish after the Oscars, combining each film’s release date and slot, how the festival and awards chatter looks, and how the scoring rules treat it. I didn’t have the draft prices or a preseason ranking to work from, so this edition is the baseline. From next week every team gets a movement arrow against it, and I’ll say whether the change comes from last week’s box office, a shift in awards buzz, or a release date moving.",
+   "One caution before the rankings: the point estimates are my own rough guesses, rounded to the nearest 50, and I’m least sure about the small films. The top five are bunched within about 200 points of each other, and a single Best Picture nomination is worth 50. Treat the order as a lean, not a verdict."
+  ],
+  "rankings": [
+   {
+    "rank": 1,
+    "team": "whalefall 4 best picture",
+    "projected": 2050,
+    "take": "A team named after a 2026 movie and a Best Picture wish, and annoyingly, the roster backs it up. This is the only team holding Wild Horse Nine, La Bola Negra and Dune: Part Three, a trio of Oscar-nominee locks (Wild Horse Nine, Martin McDonagh, Searchlight, Nov 6, is being called a sure-fire nominee). Jumanji: Open World (Dec 11) gives it a box-office floor most art-house-heavy teams lack. The only blemishes are NAZA and Wicker, two slots that are essentially paying rent. Whalefall, you’ve been outvoted: this team picked the Oscars instead.",
+    "films": [
+     "Dune: Part Three",
+     "La Bola Negra",
+     "Wild Horse Nine",
+     "Jumanji: Open World"
+    ]
+   },
+   {
+    "rank": 2,
+    "team": "DuneOrDie",
+    "projected": 1900,
+    "take": "The name says Dune or die, and the roster takes it seriously: Dune: Part Three and The Hunger Games: Sunrise on the Reaping (Nov 20) give it a box-office core shared only with waste49. Unlike waste49, it skips La Bola Negra (on 7 of 11 rosters), so it gains on everyone if that film stumbles. Godzilla Minus Zero is the sleeper, since its predecessor won the Visual Effects Oscar and a win is 50 points. Klara and the Sun, Ray Gunn, Tangles and Ramayana are lottery tickets, but at least the ticket stubs are unique.",
+    "films": [
+     "Dune: Part Three",
+     "The Hunger Games: Sunrise on the Reaping",
+     "Wild Horse Nine",
+     "Godzilla Minus Zero"
+    ]
+   },
+   {
+    "rank": 3,
+    "team": "whalefall truther",
+    "projected": 1900,
+    "take": "A truther who is right to believe in this roster. Avengers: Doomsday (Dec 18) is a giant box-office swing only one other team has, and Wild Horse Nine and La Bola Negra give it awards depth. The Whalefall pick opens Oct 16 and will probably be the first film on this roster to score, so the truth is finally coming out, albeit modestly. The danger is Dec 18, when Avengers opens the same day as Dune and the two split the audience and the #1 weekend. Conspiracy theorists love a coincidence like that.",
+    "films": [
+     "Avengers: Doomsday",
+     "La Bola Negra",
+     "Wild Horse Nine",
+     "Whalefall"
+    ]
+   },
+   {
+    "rank": 4,
+    "team": "waste49",
+    "projected": 1900,
+    "take": "The name tells you the managing style: waste49 has the same energy as someone who found a Hunger Games bracket and committed. The core is strong, with Dune, Hunger Games, La Bola Negra, Fjord (Palme d’Or winner, opens Oct 9) and Tender Loving Care (Mike Leigh). Then the waste kicks in. Coyote vs. ACME and Paw Patrol: The Dino Movie opened before Oct 2, so neither can earn a single box-office point, and Hershey is a mystery. That’s three slots that could be a nice melted-chocolate metaphor.",
+    "films": [
+     "Dune: Part Three",
+     "The Hunger Games: Sunrise on the Reaping",
+     "La Bola Negra",
+     "Fjord"
+    ]
+   },
+   {
+    "rank": 5,
+    "team": "ehootstein",
+    "projected": 1850,
+    "take": "A roster for people who say they ‘just love cinema’ and then check the Letterboxd ratings. Dune, La Bola Negra, I Play Rocky (Nov 20, Peter Farrelly’s making-of-Rocky film, a Toronto crowd-pleaser) and Fatherland make a pure awards-season build. One tentpole, no Avengers, no Hunger Games, so it will trail on box office, but it should score steadily from the late-November precursors. Solid floor, lower ceiling, a lot of film-bro energy.",
+    "films": [
+     "Dune: Part Three",
+     "La Bola Negra",
+     "I Play Rocky",
+     "Fatherland"
+    ]
+   },
+   {
+    "rank": 6,
+    "team": "you odyssey that movie",
+    "projected": 1800,
+    "take": "The name is a pun, and the roster is a very good core: The Odyssey, La Bola Negra and Hunger Games. The Odyssey will bank real points from critics, audience and awards, but not from box office (more on that below). Club Kid, The Invite and Iron Boy are mid-tier filler that will need to carry some weight. Capped by having no Dune or Avengers, so this team is an odyssey to somewhere decent but not great.",
+    "films": [
+     "The Odyssey",
+     "La Bola Negra",
+     "The Hunger Games: Sunrise on the Reaping",
+     "Once Upon a Time in Harlem"
+    ]
+   },
+   {
+    "rank": 7,
+    "team": "theonenightayearyoucancallprosciuttojamon",
+    "projected": 1800,
+    "take": "The longest name in the league, and the roster is the opposite: it’s tight. The Odyssey, Wild Horse Nine and Hunger Games, with no La Bola Negra, which is a quiet advantage if that film stumbles. Wildwood (Oct 23) is the only other film with real upside. This team is one good Oscar morning away from the top four and one bad one from the bottom. Prosciutto jamón, mamma mia, the ham is thinly sliced.",
+    "films": [
+     "The Odyssey",
+     "Wild Horse Nine",
+     "The Hunger Games: Sunrise on the Reaping",
+     "Wildwood"
+    ]
+   },
+   {
+    "rank": 8,
+    "team": "Odyssey a lot of movies this year",
+    "projected": 1700,
+    "take": "The pun is doing a lot of work here. This is an awards-heavy roster (The Odyssey, La Bola Negra, I Play Rocky, Once Upon a Time in Harlem, You Can See Everything) with no tentpole at all. I’d expect a slow start and a late climb that depends entirely on the Oscars, which is a bold way to spend the next five months at zero. The Debut (Dec 11 limited, Dec 25 wide) is the only film with any box-office angle, and it’s a ‘goofy musical’ from Jesse Eisenberg.",
+    "films": [
+     "The Odyssey",
+     "La Bola Negra",
+     "I Play Rocky",
+     "Once Upon a Time in Harlem"
+    ]
+   },
+   {
+    "rank": 9,
+    "team": "frickprick49",
+    "projected": 1700,
+    "take": "The name sounds like a password someone made at 2 a.m., and the roster is similarly chaotic. Avengers: Doomsday and La Bola Negra are strong anchors, but Hexed and Madden are late-year swings I couldn’t confirm release details for, and Klara and the Sun (Oct 23) and Blue Heron are small films. If Avengers wins its Dec 18 weekend, this team climbs a few spots. If not, it stays here, wondering why it didn’t change its password.",
+    "films": [
+     "Avengers: Doomsday",
+     "La Bola Negra",
+     "Klara and the Sun",
+     "The Debut"
+    ]
+   },
+   {
+    "rank": 10,
+    "team": "pickles69",
+    "projected": 1550,
+    "take": "The Odyssey and Dune is the best two-film core outside the top three, and then pickles69 stopped trying. Coyote vs. ACME, Moana and The Sheep Detectives all opened before Oct 2, so they can only score from critics, audience and awards, not box office. That’s three slots with a lower ceiling. This team is in a real pickle, and the 69 does not make it better.",
+    "films": [
+     "The Odyssey",
+     "Dune: Part Three",
+     "Once Upon a Time in Harlem",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 11,
+    "team": "league first team",
+    "projected": 1300,
+    "take": "The name suggests a team that’s still on its first draft, and the roster agrees. The Odyssey, Fjord and I Play Rocky are real assets, but everything else is thin: Obsession and I Want Your Sex opened before Oct 2 and have no box-office path, and Iron Boy, Josephine and Poetic License are long shots. There’s no tentpole and no La Bola Negra or Wild Horse Nine. It needs Fjord to overperform at the Oscars, which is a lot to ask of a first team that’s mostly a first draft.",
+    "films": [
+     "The Odyssey",
+     "Fjord",
+     "I Play Rocky",
+     "Obsession"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "The La Bola Negra problem",
+    "body": [
+     "La Bola Negra is on 7 of the 11 rosters. You Can See Everything and Once Upon a Time in Harlem are on 6 each, The Odyssey and Dune: Part Three on 5, and Wild Horse Nine and Hunger Games on 4. When a film is on that many rosters, its results move almost everyone together and barely change the order.",
+     "So the race will be decided by the films that fewer teams own: Avengers: Doomsday (2 teams), Fjord (2), I Play Rocky (3), Godzilla Minus Zero and Whalefall (1 each) and Jumanji: Open World (1). That’s why teams with fewer overlapping picks, like DuneOrDie and whalefall truther, rank higher than the raw film quality suggests."
+    ]
+   },
+   {
+    "heading": "The Odyssey is the best film and a bad box-office pick",
+    "body": [
+     "Christopher Nolan’s The Odyssey opened July 17 and has earned about $620M domestically, but the MFL only awards box-office points for films released on or after Oct 2, so none of that counts. Its value is everything else: it’s the de facto Best Picture frontrunner, it opened to a 4.4 Letterboxd average and a 96% Rotten Tomatoes score, and a Letterboxd average of 4.0 or higher on March 1 is worth 100 points. I couldn’t confirm its Metascore, which is worth up to 100 on Jan 4. Five teams own it. It’s a very good pick, but its ceiling is capped because it can never earn the box-office points that Dune or Avengers can."
+    ]
+   },
+   {
+    "heading": "The Dec 18 collision",
+    "body": [
+     "Avengers: Doomsday and Dune: Part Three both open on Dec 18. That helps no one on the box-office side, because the two will split the biggest weekend of the year and only one can take the #1 spot (worth 20 points for each week at #1). It’s the single biggest swing for whalefall truther (Avengers) and DuneOrDie and the others who own Dune. Hunger Games (Nov 20) has the holiday corridor to itself for about three weeks, and Jumanji (Dec 11) is the next challenger. I’d guess Hunger Games holds #1 for at least two weekends, but that’s a guess, and it depends on how well it opens."
+    ]
+   },
+   {
+    "heading": "Watch this week and next",
+    "body": [
+     "Oct 9: Fjord opens in limited release, the first of our films to start earning box-office points. Oct 16: Whalefall opens wide, and La Bola Negra and Once Upon a Time in Harlem open in limited release (La Bola Negra reaches Netflix on Dec 2). Oct 23: Wildwood and Klara and the Sun. Oct 27: the Gotham nominations, the first awards points of the season (up to 15 points per category). Nov 6: Wild Horse Nine opens. The first team to leave 0 will probably be whichever one owns Fjord or Whalefall."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "TheWrap: Best Picture predictions after festivals",
+    "url": "https://www.thewrap.com/creative-content/movies/best-picture-oscar-predictions-2027-after-festivals/"
+   },
+   {
+    "label": "TheWrap: 2026 movie release schedule",
+    "url": "https://www.thewrap.com/creative-content/movies/2026-movie-release-dates-calendar/"
+   },
+   {
+    "label": "IndieWire: La Bola Negra release date",
+    "url": "https://www.indiewire.com/news/general-news/la-bola-negra-netflix-awards-season-release-date-1235201936/"
+   },
+   {
+    "label": "Gold Derby: La Bola Negra Oscar odds",
+    "url": "https://www.goldderby.com/film/2026/la-bola-negra-oscar-odds-top-categories-penelope-cruz/"
+   },
+   {
+    "label": "Variety: I Play Rocky release date",
+    "url": "https://variety.com/2026/film/news/i-play-rocky-release-date-anthony-ippolito-amazon-mgm-1236642871/"
+   },
+   {
+    "label": "TheWrap: Fjord release date",
+    "url": "https://www.thewrap.com/creative-content/movies/fjord-release-date-neon-cannes-palme-dor/"
+   },
+   {
+    "label": "Slashfilm: The Odyssey Letterboxd record",
+    "url": "https://slashfilm.com/2220943/christopher-nolan-the-odyssey-letterboxd-record/"
+   },
+   {
+    "label": "Vulture: Movies Fantasy League rules and leaderboard",
+    "url": "https://www.vulture.com/movies-league/"
+   }
+  ]
+ }
+]

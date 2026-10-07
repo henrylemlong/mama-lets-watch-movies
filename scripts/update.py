@@ -48,12 +48,12 @@ def band(value, bands):
 
 def box_office_points(gross, weeks_at_1):
     millions = int(gross // 1_000_000)
-    parts = [{"label": "Domestic box office", "detail": f"${gross/1e6:,.1f}M", "points": millions}]
+    parts = [{"kind": "box", "label": "Domestic box office", "detail": f"${gross/1e6:,.1f}M", "points": millions}]
     for thr, p in BOX_BONUSES:
         if gross >= thr * 1_000_000:
-            parts.append({"label": f"Cleared ${thr}M", "detail": "bonus", "points": p})
+            parts.append({"kind": "box", "label": f"Cleared ${thr}M", "detail": "bonus", "points": p})
     if weeks_at_1:
-        parts.append({"label": "No. 1 at box office", "detail": f"{weeks_at_1} weekend(s) × 20", "points": 20 * weeks_at_1})
+        parts.append({"kind": "box", "label": "No. 1 at box office", "detail": f"{weeks_at_1} weekend(s) × 20", "points": 20 * weeks_at_1})
     return parts
 
 
@@ -158,20 +158,22 @@ def main():
         elif info and release:
             status = "released before scoring window"
         if m.get("metascore") is not None and today >= CRITIC_DATE:
-            parts.append({"label": "Metacritic", "detail": f"Metascore {m['metascore']}", "points": band(m["metascore"], CRITIC_BANDS)})
+            parts.append({"kind": "critic", "label": "Metacritic", "detail": f"Metascore {m['metascore']}", "points": band(m["metascore"], CRITIC_BANDS)})
         elif m.get("metascore") is not None:
-            parts.append({"label": "Metacritic", "detail": f"Metascore {m['metascore']} (awarded Jan 4, 2027)", "points": 0, "pending": True})
+            parts.append({"kind": "critic", "label": "Metacritic", "detail": f"Metascore {m['metascore']} (awarded Jan 4, 2027)", "points": 0, "pending": True})
         if m.get("letterboxd") is not None and today >= LETTERBOXD_DATE:
-            parts.append({"label": "Letterboxd", "detail": f"{m['letterboxd']}★", "points": band(m["letterboxd"], LB_BANDS)})
+            parts.append({"kind": "audience", "label": "Letterboxd", "detail": f"{m['letterboxd']}★", "points": band(m["letterboxd"], LB_BANDS)})
         elif m.get("letterboxd") is not None:
-            parts.append({"label": "Letterboxd", "detail": f"{m['letterboxd']}★ (awarded Mar 1, 2027)", "points": 0, "pending": True})
+            parts.append({"kind": "audience", "label": "Letterboxd", "detail": f"{m['letterboxd']}★ (awarded Mar 1, 2027)", "points": 0, "pending": True})
         for a in m.get("awards", []):
-            parts.append({"label": a["event"], "detail": a["category"], "points": a["points"]})
+            parts.append({"kind": "award", "label": a["event"], "detail": a["category"], "points": a["points"]})
         res = {
             "title": title, "status": status,
             "release": release.isoformat() if release else None,
             "gross": info["gross"] if info and status == "in theaters" else None,
             "points": sum(p["points"] for p in parts), "breakdown": parts,
+            "boxEligible": status != "released before scoring window",
+            "byKind": {k: sum(p["points"] for p in parts if p["kind"] == k) for k in ("box", "critic", "audience", "award")},
         }
         cache[k] = res
         return res
