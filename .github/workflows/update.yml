@@ -1,8 +1,7 @@
 name: Update standings
 on:
   schedule:
-    - cron: "15 */3 * * *"      # every 3 hours
-    - cron: "5 16,17 * * 2"     # Tuesdays just after Vulture's noon-ET update
+    - cron: "5 16,17 * * 2"     # Tuesdays just after Vulture's noon-ET update (covers EDT and EST)
   workflow_dispatch:
   push:
     paths: [manual.json]
