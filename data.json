@@ -1,0 +1,813 @@
+{
+ "league": "Mama Lets Watch Movies",
+ "generatedAt": "2026-10-07T03:58:09+00:00",
+ "vultureUpdated": "October 6, 2026",
+ "vultureSource": "https://www.vulture.com/static/leaderboard/production/cmuec30my000h3b7egrtm2p6h.json",
+ "totalPlayersOverall": 29230,
+ "boxOfficeLive": true,
+ "players": [
+  {
+   "name": "DuneOrDie",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Dune: Part Three",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Godzilla Minus Zero",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Klara and the Sun",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Ramayana",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Ray Gunn",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Tangles",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Hunger Games: Sunrise on the Reaping",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wild Horse Nine",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "ehootstein",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Being Heumann",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Dune: Part Three",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Fatherland",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "I Play Rocky",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Gradiva",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wildwood",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "frickprick49",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Avengers: Doomsday",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Blue Heron",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Hexed",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Klara and the Sun",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Madden",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Debut",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Invite",
+     "status": "released before scoring window",
+     "release": "2026-06-26",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "league first team",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Fjord",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "I Play Rocky",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "I Want Your Sex",
+     "status": "released before scoring window",
+     "release": "2026-07-31",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Iron Boy",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Josephine",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Obsession",
+     "status": "released before scoring window",
+     "release": "2026-05-15",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Poetic License",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Odyssey",
+     "status": "released before scoring window",
+     "release": "2026-07-17",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "Odyssey a lot of movies this year",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "14th",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Blue Heron",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "I Play Rocky",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Debut",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Odyssey",
+     "status": "released before scoring window",
+     "release": "2026-07-17",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "pickles69",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Coyote vs. ACME",
+     "status": "released before scoring window",
+     "release": "2026-08-28",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Dune: Part Three",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Moana",
+     "status": "released before scoring window",
+     "release": "2026-07-10",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Terrestrial",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Odyssey",
+     "status": "released before scoring window",
+     "release": "2026-07-17",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Sheep Detectives",
+     "status": "released before scoring window",
+     "release": "2026-05-08",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "theonenightayearyoucancallprosciuttojamon",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "American Doctor",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Iron Boy",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Hunger Games: Sunrise on the Reaping",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Invite",
+     "status": "released before scoring window",
+     "release": "2026-06-26",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Odyssey",
+     "status": "released before scoring window",
+     "release": "2026-07-17",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wild Horse Nine",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wildwood",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "waste49",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Coyote vs. ACME",
+     "status": "released before scoring window",
+     "release": "2026-08-28",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Dune: Part Three",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Fjord",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Hershey",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Paw Patrol: The Dino Movie",
+     "status": "released before scoring window",
+     "release": "2026-08-14",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Tender Loving Care",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Hunger Games: Sunrise on the Reaping",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "whalefall 4 best picture",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Dune: Part Three",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Jumanji: Open World",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "NAZA",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wicker",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wild Horse Nine",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "whalefall truther",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Avengers: Doomsday",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Debut",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The History of Concrete",
+     "status": "released before scoring window",
+     "release": "2026-09-18",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Whalefall",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Wild Horse Nine",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "you odyssey that movie",
+   "official": 0,
+   "officialRank": 4777,
+   "total": 0,
+   "movies": [
+    {
+     "title": "Club Kid",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Iron Boy",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "La Bola Negra",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "Once Upon a Time in Harlem",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Hunger Games: Sunrise on the Reaping",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Invite",
+     "status": "released before scoring window",
+     "release": "2026-06-26",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "The Odyssey",
+     "status": "released before scoring window",
+     "release": "2026-07-17",
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": []
+    }
+   ],
+   "rank": 1
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mama Lets Watch Movies — MFL Standings</title>
+<style>
+:root{--bg:#faf7f2;--card:#fff;--ink:#1d1a17;--mute:#6f675f;--line:#e8e1d6;--accent:#b3261e;--gold:#c8961a;--pos:#1a7f45;--neg:#b3261e}
+@media (prefers-color-scheme:dark){:root{--bg:#141210;--card:#1e1b18;--ink:#f1ece4;--mute:#a49b90;--line:#322d28;--accent:#ff6b5e;--gold:#e0b13c;--pos:#4cc47f;--neg:#ff6b5e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 16px 56px}
+h1{font:700 28px/1.15 Georgia,serif;margin:0 0 4px}
+.sub{color:var(--mute);font-size:14px;margin:0 0 20px}
+.sub a{color:inherit}
+.note{font-size:13px;color:var(--mute);background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;margin:0 0 16px}
+ol{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+summary{display:grid;grid-template-columns:36px 1fr auto 16px;gap:10px;align-items:center;padding:14px;cursor:pointer;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.rank{font:700 20px Georgia,serif;color:var(--mute);text-align:center}
+.r1 .rank{color:var(--gold)}
+.name{font-weight:600;overflow-wrap:anywhere}
+.name small{display:block;font-weight:400;color:var(--mute);font-size:12px}
+.pts{font:700 22px/1 Georgia,serif;text-align:right}
+.pts small{display:block;font:500 11px system-ui;color:var(--mute);margin-top:3px}
+.chev{width:8px;height:8px;border-right:2px solid var(--mute);border-bottom:2px solid var(--mute);transform:rotate(45deg);transition:transform .15s}
+details[open] .chev{transform:rotate(-135deg)}
+.movies{border-top:1px solid var(--line);margin:0;padding:4px 14px 8px}
+.movies>li{border-bottom:1px solid var(--line)}
+.movies>li:last-child{border:0}
+.movies details{border:0;border-radius:0;background:none}
+.movies summary{grid-template-columns:1fr auto 14px;padding:10px 0}
+.t{font-weight:500}
+.t small{display:block;color:var(--mute);font-weight:400;font-size:12px}
+.mp{font-weight:700;font-variant-numeric:tabular-nums}
+.pos{color:var(--pos)}.neg{color:var(--neg)}.zero{color:var(--mute)}
+.bd{margin:0 0 10px;padding:8px 10px;background:var(--bg);border-radius:8px;font-size:14px}
+.bd li{display:flex;justify-content:space-between;gap:12px;padding:3px 0}
+.bd span:first-child small{color:var(--mute)}
+.empty{color:var(--mute);font-size:14px;margin:0 0 10px;padding:0 2px}
+footer{margin-top:28px;color:var(--mute);font-size:12px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Mama Lets Watch Movies</h1>
+  <p class="sub" id="sub">Loading…</p>
+  <div class="note" id="note" hidden></div>
+  <ol id="board"></ol>
+  <footer>Unofficial viewer for <a href="https://www.vulture.com/movies-league/">Vulture’s Movies Fantasy League</a>. Box-office points are computed from Box Office Mojo and update daily; critic, audience and awards points are added as they’re awarded.</footer>
+</main>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cls = n => n > 0 ? 'pos' : n < 0 ? 'neg' : 'zero';
+const fmt = n => (n > 0 ? '+' : '') + n;
+const statusText = m => m.status === 'in theaters' ? (m.gross != null ? `In theaters · $${(m.gross/1e6).toFixed(1)}M` : 'In theaters')
+  : m.status === 'released before scoring window' ? 'Released before Oct 2 — no box office points' : 'Not yet released';
+
+function movieHTML(m) {
+  const bd = m.breakdown.length
+    ? `<ul class="bd" style="list-style:none">${m.breakdown.map(b => `<li><span>${esc(b.label)} <small>${esc(b.detail)}</small></span><span class="mp ${cls(b.points)}">${fmt(b.points)}</span></li>`).join('')}</ul>`
+    : `<p class="empty">No points yet.</p>`;
+  return `<li><details><summary><span class="t">${esc(m.title)}<small>${esc(statusText(m))}</small></span><span class="mp ${cls(m.points)}">${fmt(m.points)}</span><i class="chev"></i></summary>${bd}</details></li>`;
+}
+
+fetch('data.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  const when = new Date(d.generatedAt).toLocaleString([], {dateStyle:'medium', timeStyle:'short'});
+  $('#sub').innerHTML = `${d.players.length} players · refreshed ${esc(when)}` + (d.vultureUpdated ? ` · Vulture leaderboard: ${esc(d.vultureUpdated)}` : '');
+  const mismatch = d.players.some(p => p.total !== p.official);
+  if (mismatch || !d.boxOfficeLive) {
+    $('#note').hidden = false;
+    $('#note').textContent = !d.boxOfficeLive
+      ? 'Box Office Mojo couldn’t be reached on the last refresh, so totals fall back to Vulture’s official numbers where possible.'
+      : 'Totals here are live; Vulture’s official leaderboard only updates on Tuesdays at noon ET, so a few players show an “official” number that differs.';
+  }
+  $('#board').innerHTML = d.players.map(p => {
+    const diff = p.total !== p.official ? `<small>official ${p.official}</small>` : '<small>points</small>';
+    return `<li class="${p.rank === 1 ? 'r1' : ''}"><details><summary><span class="rank">${p.rank}</span><span class="name">${esc(p.name)}<small>${p.movies.length} movies</small></span><span class="pts">${p.total}${diff}</span><i class="chev"></i></summary><ul class="movies">${p.movies.map(movieHTML).join('')}</ul></details></li>`;
+  }).join('');
+}).catch(e => { $('#sub').textContent = 'Could not load standings.'; console.error(e); });
+</script>
+</body>
+</html>

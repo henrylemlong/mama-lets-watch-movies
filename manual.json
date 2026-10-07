@@ -1,0 +1,17 @@
+{
+  "_help": "Edit by hand as results come in. Metascore/letterboxd points only count after Jan 4 / Mar 1, 2027. Awards add points immediately. aliases maps a Vulture title to its Box Office Mojo title if they differ.",
+  "aliases": {},
+  "movies": {
+    "Example Movie (delete me)": {
+      "metascore": 85,
+      "letterboxd": 3.9,
+      "awards": [
+        {
+          "event": "Gotham Awards nomination",
+          "category": "Best Feature",
+          "points": 15
+        }
+      ]
+    }
+  }
+}
