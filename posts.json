@@ -1,5 +1,228 @@
 [
  {
+  "id": "2026-10-18",
+  "date": "2026-10-18",
+  "week": "Week 2 (late edition)",
+  "title": "Power Rankings, Week 2: A Whale Sinks, a Doc Rises, and the Weekly Job Admits It Missed a Deadline",
+  "dek": "This was supposed to run on Oct 13. It didn’t, because the weekly job stalled, so this edition covers the quiet week and the weekend that actually mattered.",
+  "intro": [
+   "Quick confession: this post should have gone up on Tuesday, Oct 13, and it didn’t. The automatic weekly job started and then stopped without writing anything. On Oct 13 Vulture’s official leaderboard still had every team in our league at 0, and the real news came this weekend, so I’m treating this as the Week 2 edition and covering both.",
+   "The headline is that the league’s first points arrived on Oct 16–18, from two films. You Can See Everything opened to an estimated $15M from 855 theaters, the best per-theater average among the top eight films, and Whalefall opened to about $7–8M against a roughly $60M budget. Six teams own the doc and one owns the whale. Our live standings below are based on weekend estimates and Vulture’s official board won’t reflect any of it until its next update, so expect small differences.",
+   "Same caveat as last week: the projected numbers are my own rough guesses (the film-by-film estimates are saved in the repo now), and the top eight teams are within a few hundred points of each other, so a single Oscar nomination can reorder the whole thing."
+  ],
+  "rankings": [
+   {
+    "rank": 1,
+    "team": "whalefall 4 best picture",
+    "prev": 1,
+    "projected": 2200,
+    "take": "Still on top, and it got there by skipping the movie in its name. The team picked a Best Picture roster instead of a whale, which turned out to be the right call: Whalefall opened to about $7–8M on a roughly $60M budget. Meanwhile it owns You Can See Everything, which just opened to $15M, plus Dune, La Bola Negra and Wild Horse Nine. Nothing about this ranking has changed except that the lead got a little more comfortable.",
+    "films": [
+     "Dune: Part Three",
+     "La Bola Negra",
+     "Wild Horse Nine",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 2,
+    "team": "whalefall truther",
+    "prev": 3,
+    "projected": 2000,
+    "take": "The truth is out, and it’s a B CinemaScore. This team is the only one with Whalefall, and it also owns You Can See Everything, so it leads our live standings with about 23 points (15 + 8). I moved it up one spot because of that doc, not the whale. Avengers: Doomsday (Dec 18) is still the real prize, and the Dec 18 clash with Dune still stands. At least a truther knows how to handle bad news.",
+    "films": [
+     "Avengers: Doomsday",
+     "You Can See Everything",
+     "La Bola Negra",
+     "Whalefall"
+    ]
+   },
+   {
+    "rank": 3,
+    "team": "ehootstein",
+    "prev": 5,
+    "projected": 2000,
+    "take": "A big mover this week, and it’s one film’s doing. You Can See Everything (Nathan Fielder and Lance Oppenheim’s Elizabeth Holmes film, A24) opened to about $15M from just 855 theaters, which looks great for a doc, and this team owns it alongside Dune and La Bola Negra. Having it on the roster also keeps the awards-bro build from looking too precious. I Play Rocky is the one to watch on Nov 13 (limited) and Nov 20.",
+    "films": [
+     "Dune: Part Three",
+     "La Bola Negra",
+     "I Play Rocky",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 4,
+    "team": "you odyssey that movie",
+    "prev": 6,
+    "projected": 1960,
+    "take": "Up two spots on the same doc. It owns The Odyssey, La Bola Negra, Hunger Games and You Can See Everything, which is a better core than the name suggests. The pun was the best thing about this team last week, and now it has a few points too. It still has no Dune or Avengers, so the ceiling is a bit lower than the top three.",
+    "films": [
+     "The Odyssey",
+     "La Bola Negra",
+     "The Hunger Games: Sunrise on the Reaping",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 5,
+    "team": "waste49",
+    "prev": 4,
+    "projected": 1930,
+    "take": "Down one, and it’s the only team in the top five with nothing on the board. Fjord is its best shot at early points: it opened Oct 9 in four theaters for roughly $124–128K, a good arthouse number but nowhere near the 1 point per $1M the scoring rewards. The roster still has Dune, Hunger Games, La Bola Negra and Tender Loving Care. The waste part of the name is still Coyote vs. ACME and Paw Patrol: The Dino Movie.",
+    "films": [
+     "Dune: Part Three",
+     "The Hunger Games: Sunrise on the Reaping",
+     "La Bola Negra",
+     "Fjord"
+    ]
+   },
+   {
+    "rank": 6,
+    "team": "DuneOrDie",
+    "prev": 2,
+    "projected": 1910,
+    "take": "This is the big faller, from 2 to 6, and it’s mostly relative: I raised my estimate for You Can See Everything, which DuneOrDie doesn’t own, so six other teams moved up past it without it doing anything wrong. The whole top eight is within about 400 points, so don’t panic. The name still says Dune or die, and nothing happens until Hunger Games on Nov 20 and Dune on Dec 18. Until then the roster is a lot of waiting.",
+    "films": [
+     "Dune: Part Three",
+     "The Hunger Games: Sunrise on the Reaping",
+     "Wild Horse Nine",
+     "Godzilla Minus Zero"
+    ]
+   },
+   {
+    "rank": 7,
+    "team": "Odyssey a lot of movies this year",
+    "prev": 8,
+    "projected": 1870,
+    "take": "Up one thanks to You Can See Everything. The pun is still doing most of the work, but the doc gave it 15 real points and La Bola Negra just had a record-setting Netflix opening weekend in four theaters ($277,500, about $69K per theater). This roster has no tentpole, so it’s still an awards-season build, and it has five more months of waiting at the same pace.",
+    "films": [
+     "The Odyssey",
+     "La Bola Negra",
+     "I Play Rocky",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 8,
+    "team": "theonenightayearyoucancallprosciuttojamon",
+    "prev": 7,
+    "projected": 1810,
+    "take": "Down one and still at zero. The name is a lot to say out loud, and so far the roster has been just as quiet. Wildwood (Oct 23) is its first chance to score, then Wild Horse Nine (Nov 6) and Hunger Games (Nov 20). No You Can See Everything and no La Bola Negra means it avoids the crowd but also missed the one hit of the week.",
+    "films": [
+     "The Odyssey",
+     "Wild Horse Nine",
+     "The Hunger Games: Sunrise on the Reaping",
+     "Wildwood"
+    ]
+   },
+   {
+    "rank": 9,
+    "team": "frickprick49",
+    "prev": 9,
+    "projected": 1740,
+    "take": "No change, and no points. Klara and the Sun opens Oct 23 and Avengers is still the one thing that could change this team’s fortunes. Hexed and Madden are still unconfirmed on my end. It owns La Bola Negra, so it enjoyed the Netflix record without a single point to show for it. The name reads like a password someone made at 2 a.m., and the roster is as chaotic as ever.",
+    "films": [
+     "Avengers: Doomsday",
+     "La Bola Negra",
+     "Klara and the Sun",
+     "The Debut"
+    ]
+   },
+   {
+    "rank": 10,
+    "team": "pickles69",
+    "prev": 10,
+    "projected": 1680,
+    "take": "Up 15 points and still stuck at 10. You Can See Everything gave pickles69 its first points, which helps, but Coyote vs. ACME, Moana and The Sheep Detectives still can’t earn any box-office points because they opened before Oct 2. The Odyssey and Dune are still a strong core. The 69 is still not helping.",
+    "films": [
+     "The Odyssey",
+     "Dune: Part Three",
+     "Once Upon a Time in Harlem",
+     "You Can See Everything"
+    ]
+   },
+   {
+    "rank": 11,
+    "team": "league first team",
+    "prev": 11,
+    "projected": 1340,
+    "take": "Still last, still at zero. Fjord opened in four theaters for roughly $124–128K, and Romania selected it as its Oscar submission, which improves the International Feature path. The rest is Obsession and I Want Your Sex, which are locked out of box-office points, and Iron Boy, Josephine and Poetic License. A first team that’s mostly a first draft.",
+    "films": [
+     "The Odyssey",
+     "Fjord",
+     "I Play Rocky",
+     "Obsession"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "heading": "You Can See Everything is the surprise of the weekend",
+    "body": [
+     "A24’s doc about Elizabeth Holmes, from Nathan Fielder and Lance Oppenheim, opened to roughly $15M from 855 theaters, which is 15 points on its own under the $1M-equals-1-point rule, and a $25M total would add a 10-point bonus. It’s on six rosters (whalefall 4 best picture, whalefall truther, ehootstein, you odyssey that movie, Odyssey a lot of movies this year and pickles69), so it mostly lifts the same teams together. That’s why I raised my estimate for it from about 130 to about 250. I don’t know how its reviews or Letterboxd rating will land, and I’m treating the awards upside (a Best Documentary nomination is worth 25) as a guess."
+    ]
+   },
+   {
+    "heading": "Whalefall sank",
+    "body": [
+     "Whalefall opened to about $7–8M depending on the source (Box Office Mojo’s estimate is $8.0M), well below the low double-digit projection the studio was reported to be aiming for, with a B CinemaScore. Reviews are middling: reports put its Metacritic score at 62–64, which would be worth 20 points if it holds until Jan 4, and Rotten Tomatoes at roughly 71–79%. I cut my estimate for it from 105 to 70. Only whalefall truther owns it, so the damage is limited to one roster."
+    ]
+   },
+   {
+    "heading": "La Bola Negra just made Netflix box-office history",
+    "body": [
+     "La Bola Negra opened Oct 16 in four theaters and earned an estimated $277,500, about $69K per theater, and Netflix reported the figure publicly for the first time. Four theaters prove very little about how it plays at scale, and the film reaches Netflix on Dec 2 after a planned 45-day theatrical window, so I don’t expect big box-office points. The awards story is stronger: it’s Spain’s Oscar submission for International Feature, it shared the directing prize at Cannes and won the audience award at TIFF. It’s on 7 of 11 rosters, so it won’t change the order much, and I nudged my estimate up from 400 to about 430."
+    ]
+   },
+   {
+    "heading": "Fjord and the arthouse numbers",
+    "body": [
+     "Fjord opened Oct 9 in four theaters for roughly $124–128K (sources differ slightly), which is a strong arthouse start but only worth a point or two. Romania selected it as its Oscar submission, which strengthens its International Feature case, so I nudged it from 260 to 280. Two teams own it (waste49 and league first team)."
+    ]
+   },
+   {
+    "heading": "What to watch next",
+    "body": [
+     "Oct 20: Vulture’s next leaderboard update and the next regular power rankings. Oct 23: Wildwood and Klara and the Sun open. Oct 27: Gotham nominations, the first awards points of the season (10–15 points per category). Nov 6: Wild Horse Nine. Nov 13 and 20: I Play Rocky, and Hunger Games on Nov 20."
+    ]
+   }
+  ],
+  "sources": [
+   {
+    "label": "Hollywood Reporter: Street Fighter wins, You Can See Everything stuns",
+    "url": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-box-office-you-can-see-everything-whalefall-1236734312/"
+   },
+   {
+    "label": "World of Reel: Whalefall opening",
+    "url": "https://www.worldofreel.com/blog/2026/10/17/box-office-whalefall-bombs-with-7m-opening-on-60m-budget"
+   },
+   {
+    "label": "World of Reel: Whalefall RT and Metacritic",
+    "url": "https://www.worldofreel.com/blog/2026/10/14/whalefall-hits-79-on-rotten-tomatoes-and-62-on-metacritic"
+   },
+   {
+    "label": "IndieWire: La Bola Negra limited release",
+    "url": "https://www.indiewire.com/news/box-office/la-bola-negra-earns-limited-release-netflix-reports-box-office-1235222671/"
+   },
+   {
+    "label": "Screen Daily: La Bola Negra Spain box office and Oscar entry",
+    "url": "https://www.screendaily.com/news/spanish-oscar-entry-la-bola-negra-breaks-local-box-office-records/5220847.article"
+   },
+   {
+    "label": "Screen Daily: Romania selects Fjord",
+    "url": "https://www.screendaily.com/news/romania-selects-fjord-as-official-oscar-submission/5219957.article"
+   },
+   {
+    "label": "Romania Insider: Fjord North American debut",
+    "url": "https://www.romania-insider.com/romanian-director-cristian-mungius-fjord-scores-strong-north"
+   },
+   {
+    "label": "Box Office Mojo: weekend chart",
+    "url": "https://www.boxofficemojo.com/weekend/2026W42/"
+   }
+  ]
+ },
+ {
   "id": "2026-10-06",
   "date": "2026-10-06",
   "week": "Preseason / Week 1",
