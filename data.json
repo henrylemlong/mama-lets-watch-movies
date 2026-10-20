@@ -1,6 +1,6 @@
 {
  "league": "Mama Lets Watch Movies",
- "generatedAt": "2026-10-18T19:27:44+00:00",
+ "generatedAt": "2026-10-20T19:57:54+00:00",
  "vultureUpdated": "October 13, 2026",
  "vultureSource": "https://www.vulture.com/static/leaderboard/production/cmuec30my000h3b7egrtm2p6h.json",
  "totalPlayersOverall": 30097,
@@ -10,19 +10,19 @@
    "name": "whalefall truther",
    "official": 0,
    "officialRank": 8090,
-   "total": 23,
+   "total": 22,
    "movies": [
     {
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
@@ -38,19 +38,19 @@
      "title": "Whalefall",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 8000000,
-     "points": 8,
+     "gross": 7837153,
+     "points": 7,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$8.0M",
-       "points": 8
+       "detail": "$7.8M",
+       "points": 7
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 8,
+      "box": 7,
       "critic": 0,
       "audience": 0,
       "award": 0
@@ -159,13 +159,13 @@
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
@@ -295,13 +295,13 @@
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
@@ -431,13 +431,13 @@
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
@@ -567,13 +567,13 @@
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
@@ -703,13 +703,13 @@
      "title": "You Can See Everything",
      "status": "in theaters",
      "release": "2026-10-16",
-     "gross": 15000000,
+     "gross": 15601418,
      "points": 15,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$15.0M",
+       "detail": "$15.6M",
        "points": 15
       }
      ],
