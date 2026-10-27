@@ -1,61 +1,17 @@
 {
  "league": "Mama Lets Watch Movies",
- "generatedAt": "2026-10-20T19:57:54+00:00",
- "vultureUpdated": "October 13, 2026",
+ "generatedAt": "2026-10-27T20:36:26+00:00",
+ "vultureUpdated": "October 20, 2026",
  "vultureSource": "https://www.vulture.com/static/leaderboard/production/cmuec30my000h3b7egrtm2p6h.json",
- "totalPlayersOverall": 30097,
+ "totalPlayersOverall": 30227,
  "boxOfficeLive": true,
  "players": [
   {
    "name": "whalefall truther",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 22,
+   "official": 23,
+   "officialRank": 5791,
+   "total": 0,
    "movies": [
-    {
-     "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
-     "boxEligible": true,
-     "byKind": {
-      "box": 15,
-      "critic": 0,
-      "audience": 0,
-      "award": 0
-     }
-    },
-    {
-     "title": "Whalefall",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 7837153,
-     "points": 7,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$7.8M",
-       "points": 7
-      }
-     ],
-     "boxEligible": true,
-     "byKind": {
-      "box": 7,
-      "critic": 0,
-      "audience": 0,
-      "award": 0
-     }
-    },
     {
      "title": "Avengers: Doomsday",
      "status": "unreleased",
@@ -118,12 +74,27 @@
     },
     {
      "title": "The History of Concrete",
-     "status": "released before scoring window",
-     "release": "2026-09-18",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
+    },
+    {
+     "title": "Whalefall",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -145,38 +116,31 @@
       "audience": 0,
       "award": 0
      }
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
     }
    ],
    "rank": 1
   },
   {
    "name": "ehootstein",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 15,
+   "official": 15,
+   "officialRank": 8190,
+   "total": 0,
    "movies": [
-    {
-     "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
-     "boxEligible": true,
-     "byKind": {
-      "box": 15,
-      "critic": 0,
-      "audience": 0,
-      "award": 0
-     }
-    },
     {
      "title": "Being Heumann",
      "status": "unreleased",
@@ -281,38 +245,31 @@
       "audience": 0,
       "award": 0
      }
-    }
-   ],
-   "rank": 2
-  },
-  {
-   "name": "Odyssey a lot of movies this year",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 15,
-   "movies": [
+    },
     {
      "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
      "boxEligible": true,
      "byKind": {
-      "box": 15,
+      "box": 0,
       "critic": 0,
       "audience": 0,
       "award": 0
      }
-    },
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "Odyssey a lot of movies this year",
+   "official": 15,
+   "officialRank": 8190,
+   "total": 0,
+   "movies": [
     {
      "title": "14th",
      "status": "unreleased",
@@ -405,12 +362,27 @@
     },
     {
      "title": "The Odyssey",
-     "status": "released before scoring window",
-     "release": "2026-07-17",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -419,44 +391,22 @@
      }
     }
    ],
-   "rank": 2
+   "rank": 1
   },
   {
    "name": "pickles69",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 15,
+   "official": 15,
+   "officialRank": 8190,
+   "total": 0,
    "movies": [
     {
-     "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
-     "boxEligible": true,
-     "byKind": {
-      "box": 15,
-      "critic": 0,
-      "audience": 0,
-      "award": 0
-     }
-    },
-    {
      "title": "Coyote vs. ACME",
-     "status": "released before scoring window",
-     "release": "2026-08-28",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -481,12 +431,12 @@
     },
     {
      "title": "Moana",
-     "status": "released before scoring window",
-     "release": "2026-07-10",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -526,12 +476,12 @@
     },
     {
      "title": "The Odyssey",
-     "status": "released before scoring window",
-     "release": "2026-07-17",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -541,12 +491,27 @@
     },
     {
      "title": "The Sheep Detectives",
-     "status": "released before scoring window",
-     "release": "2026-05-08",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -555,36 +520,14 @@
      }
     }
    ],
-   "rank": 2
+   "rank": 1
   },
   {
    "name": "whalefall 4 best picture",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 15,
+   "official": 15,
+   "officialRank": 8190,
+   "total": 0,
    "movies": [
-    {
-     "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
-     "boxEligible": true,
-     "byKind": {
-      "box": 15,
-      "critic": 0,
-      "audience": 0,
-      "award": 0
-     }
-    },
     {
      "title": "Dune: Part Three",
      "status": "unreleased",
@@ -689,38 +632,31 @@
       "audience": 0,
       "award": 0
      }
-    }
-   ],
-   "rank": 2
-  },
-  {
-   "name": "you odyssey that movie",
-   "official": 0,
-   "officialRank": 8090,
-   "total": 15,
-   "movies": [
+    },
     {
      "title": "You Can See Everything",
-     "status": "in theaters",
-     "release": "2026-10-16",
-     "gross": 15601418,
-     "points": 15,
-     "breakdown": [
-      {
-       "kind": "box",
-       "label": "Domestic box office",
-       "detail": "$15.6M",
-       "points": 15
-      }
-     ],
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
      "boxEligible": true,
      "byKind": {
-      "box": 15,
+      "box": 0,
       "critic": 0,
       "audience": 0,
       "award": 0
      }
-    },
+    }
+   ],
+   "rank": 1
+  },
+  {
+   "name": "you odyssey that movie",
+   "official": 15,
+   "officialRank": 8190,
+   "total": 0,
+   "movies": [
     {
      "title": "Club Kid",
      "status": "unreleased",
@@ -798,12 +734,12 @@
     },
     {
      "title": "The Invite",
-     "status": "released before scoring window",
-     "release": "2026-06-26",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -813,12 +749,27 @@
     },
     {
      "title": "The Odyssey",
-     "status": "released before scoring window",
-     "release": "2026-07-17",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
+     "byKind": {
+      "box": 0,
+      "critic": 0,
+      "audience": 0,
+      "award": 0
+     }
+    },
+    {
+     "title": "You Can See Everything",
+     "status": "unreleased",
+     "release": null,
+     "gross": null,
+     "points": 0,
+     "breakdown": [],
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -827,12 +778,12 @@
      }
     }
    ],
-   "rank": 2
+   "rank": 1
   },
   {
    "name": "DuneOrDie",
    "official": 0,
-   "officialRank": 8090,
+   "officialRank": 17775,
    "total": 0,
    "movies": [
     {
@@ -956,12 +907,12 @@
      }
     }
    ],
-   "rank": 7
+   "rank": 1
   },
   {
    "name": "frickprick49",
    "official": 0,
-   "officialRank": 8090,
+   "officialRank": 17775,
    "total": 0,
    "movies": [
     {
@@ -1071,12 +1022,12 @@
     },
     {
      "title": "The Invite",
-     "status": "released before scoring window",
-     "release": "2026-06-26",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1085,12 +1036,12 @@
      }
     }
    ],
-   "rank": 7
+   "rank": 1
   },
   {
    "name": "league first team",
    "official": 0,
-   "officialRank": 8090,
+   "officialRank": 17775,
    "total": 0,
    "movies": [
     {
@@ -1125,12 +1076,12 @@
     },
     {
      "title": "I Want Your Sex",
-     "status": "released before scoring window",
-     "release": "2026-07-31",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1170,12 +1121,12 @@
     },
     {
      "title": "Obsession",
-     "status": "released before scoring window",
-     "release": "2026-05-15",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1200,12 +1151,12 @@
     },
     {
      "title": "The Odyssey",
-     "status": "released before scoring window",
-     "release": "2026-07-17",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1214,12 +1165,12 @@
      }
     }
    ],
-   "rank": 7
+   "rank": 1
   },
   {
    "name": "theonenightayearyoucancallprosciuttojamon",
    "official": 0,
-   "officialRank": 8090,
+   "officialRank": 17775,
    "total": 0,
    "movies": [
     {
@@ -1284,12 +1235,12 @@
     },
     {
      "title": "The Invite",
-     "status": "released before scoring window",
-     "release": "2026-06-26",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1299,12 +1250,12 @@
     },
     {
      "title": "The Odyssey",
-     "status": "released before scoring window",
-     "release": "2026-07-17",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1343,22 +1294,22 @@
      }
     }
    ],
-   "rank": 7
+   "rank": 1
   },
   {
    "name": "waste49",
    "official": 0,
-   "officialRank": 8090,
+   "officialRank": 17775,
    "total": 0,
    "movies": [
     {
      "title": "Coyote vs. ACME",
-     "status": "released before scoring window",
-     "release": "2026-08-28",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1428,12 +1379,12 @@
     },
     {
      "title": "Paw Patrol: The Dino Movie",
-     "status": "released before scoring window",
-     "release": "2026-08-14",
+     "status": "unreleased",
+     "release": null,
      "gross": null,
      "points": 0,
      "breakdown": [],
-     "boxEligible": false,
+     "boxEligible": true,
      "byKind": {
       "box": 0,
       "critic": 0,
@@ -1472,7 +1423,7 @@
      }
     }
    ],
-   "rank": 7
+   "rank": 1
   }
  ]
 }
