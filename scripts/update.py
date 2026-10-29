@@ -86,9 +86,11 @@ def fetch_year_table():
         total = money(money_cells[-1]) if money_cells else 0
         rel = None
         for x in t:
-            m = re.fullmatch(r"([A-Z][a-z]{2}) (\d{1,2})", x)
+            m = re.fullmatch(r"(?:[A-Z][a-z]{2} )?([A-Z][a-z]{2}) (\d{1,2})", x)
             if m:
                 rel = dt.datetime.strptime(f"{m.group(1)} {m.group(2)} 2026", "%b %d %Y").date()
+        if rel is None:
+            print(f"WARNING: no release date parsed for {title!r}: {t}", file=sys.stderr)
         out[norm(title)] = {"title": title, "gross": total, "release": rel}
     return out
 
@@ -152,6 +154,8 @@ def main():
         m = mm.get(k, {})
         parts, status = [], "unreleased"
         release = info["release"] if info else None
+        if info and release is None and info["gross"]:
+            release = SCORING_START  # unparsed date: don't silently drop box-office points (a warning was printed)
         if info and release and release >= SCORING_START:
             status = "in theaters"
             parts += box_office_points(info["gross"], ones.get(bk, 0))
@@ -185,10 +189,13 @@ def main():
         ms = [movie(t) for t in titles]
         computed = sum(m["points"] for m in ms)
         players.append({
-            "name": r["displayName"], "official": r["score"], "officialRank": r["ranking"],
-            "total": computed, "movies": sorted(ms, key=lambda m: (-m["points"], m["title"])),
+            "name": r["displayName"],
+            "total": r["score"],  # Vulture's official score is the source of truth
+            "estimated": computed,  # our per-film estimate (box office etc.); Vulture doesn't itemize
+            "other": r["score"] - computed,  # awards, bonuses, timing differences: whatever Vulture counts beyond the estimate
+            "movies": sorted(ms, key=lambda m: (-m["points"], m["title"])),
         })
-    players.sort(key=lambda p: (-p["total"], -p["official"], p["name"].lower()))
+    players.sort(key=lambda p: (-p["total"], p["name"].lower()))
     rank, prev = 0, None
     for i, p in enumerate(players, 1):
         if p["total"] != prev:

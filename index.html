@@ -127,7 +127,7 @@ button:focus-visible,select:focus-visible,input:focus-visible{outline:2px solid 
     <table class="tbl" id="sim"><thead><tr><th>#</th><th>Team</th><th>Now</th><th>What-if</th><th>Move</th></tr></thead><tbody></tbody></table>
     <p class="hint" style="margin-top:12px">Box office, Metascore and Letterboxd entries replace that film’s current points in that category. Awards are added on top. Nothing here changes the real standings.</p>
   </section>
-  <footer>Unofficial viewer for <a href="https://www.vulture.com/movies-league/">Vulture’s Movies Fantasy League</a>. Box-office points are computed from Box Office Mojo and update every Tuesday, right after Vulture’s leaderboard; critic, audience and awards points are added as they’re awarded.</footer>
+  <footer>Unofficial viewer for <a href="https://www.vulture.com/movies-league/">Vulture’s Movies Fantasy League</a>. Box-office points are computed from Box Office Mojo and update when Vulture’s leaderboard does (usually Tuesday); critic, audience and awards points are added as they’re awarded.</footer>
 </main>
 <script>
 const bub=document.getElementById('bubbles');
@@ -154,16 +154,11 @@ const band=(v,b)=>b.reduce((a,[lo,p])=>v>=lo?p:a,null);
 const boxPts=(m,w)=>Math.floor(m)+BOX_BONUS.reduce((s,[t,p])=>s+(m>=t?p:0),0)+20*w;
 
 function renderStandings(d){
-  const mismatch = d.players.some(p => p.total !== p.official);
-  if (mismatch || !d.boxOfficeLive) {
-    $('#note').hidden = false;
-    $('#note').textContent = !d.boxOfficeLive
-      ? 'Box Office Mojo couldn’t be reached on the last refresh, so box-office points may be missing.'
-      : 'Totals here are computed from live box office; Vulture’s official leaderboard may differ slightly.';
-  }
+  $('#note').hidden = false;
+  $('#note').textContent = 'Scores are Vulture’s official numbers. Vulture doesn’t publish per-film points, so the film lines are our estimate from box office; “Other points” is whatever else Vulture counts (awards, bonuses).';
   $('#board').innerHTML = d.players.map(p => {
-    const diff = p.total !== p.official ? `<small>official ${p.official}</small>` : '<small>points</small>';
-    return `<li class="${p.rank === 1 ? 'r1' : ''}"><details><summary><span class="rank">${p.rank}</span><span class="name">${esc(p.name)}<small>${p.movies.length} movies</small></span><span class="pts">${p.total}${diff}</span><i class="chev"></i></summary><ul class="movies">${p.movies.map(movieHTML).join('')}</ul></details></li>`;
+    const diff = '<small>points</small>';
+    return `<li class="${p.rank === 1 ? 'r1' : ''}"><details><summary><span class="rank">${p.rank}</span><span class="name">${esc(p.name)}<small>${p.movies.length} movies</small></span><span class="pts">${p.total}${diff}</span><i class="chev"></i></summary><ul class="movies">${p.movies.map(movieHTML).join('')}${p.other ? `<li><div class="bd" style="margin:8px 0"><span class="t">Other points <small>awards, bonuses &amp; timing — not itemized by Vulture</small></span> <span class="mp ${cls(p.other)}" style="float:right">${fmt(p.other)}</span></div></li>` : ''}</ul></details></li>`;
   }).join('');
 }
 
@@ -212,7 +207,7 @@ function simulate(){
   });
   const pts = t => { const m = mm[t.title]; let v = m.points + (adj[t.title]||0);
     for (const [k,val] of Object.entries(over[t.title]||{})) v += val - m.byKind[k]; return v; };
-  const rows = DATA.players.map(p => ({name:p.name, now:p.total, nowRank:p.rank, sim:p.movies.reduce((s,m)=>s+pts(m),0), hits:p.movies.filter(m=>adj[m.title]||over[m.title]).map(m=>m.title)}));
+  const rows = DATA.players.map(p => ({name:p.name, now:p.total, nowRank:p.rank, sim:p.total + p.movies.reduce((s,m)=>s+pts(m)-m.points,0), hits:p.movies.filter(m=>adj[m.title]||over[m.title]).map(m=>m.title)}));
   rows.sort((a,b)=>b.sim-a.sim||a.name.localeCompare(b.name));
   let r=0,prev=null; rows.forEach((x,i)=>{ if(x.sim!==prev){r=i+1;prev=x.sim;} x.rank=r; });
   $('#sim tbody').innerHTML = rows.map(x => {
