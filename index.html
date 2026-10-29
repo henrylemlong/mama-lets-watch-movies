@@ -137,7 +137,7 @@ const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':
 const cls = n => n > 0 ? 'pos' : n < 0 ? 'neg' : 'zero';
 const fmt = n => (n > 0 ? '+' : '') + n;
 const statusText = m => m.status === 'in theaters' ? (m.gross != null ? `In theaters · $${(m.gross/1e6).toFixed(1)}M` : 'In theaters')
-  : m.status === 'released before scoring window' ? 'Released before Oct 2 — no box office points' : 'Not yet released';
+  : m.status === 'released before scoring window' ? 'Released before Oct 2 — no box office points' : (m.points ? 'Earning awards points · not on Box Office Mojo’s chart yet' : 'Not yet released');
 
 function movieHTML(m) {
   const bd = m.breakdown.length
@@ -155,7 +155,7 @@ const boxPts=(m,w)=>Math.floor(m)+BOX_BONUS.reduce((s,[t,p])=>s+(m>=t?p:0),0)+20
 
 function renderStandings(d){
   $('#note').hidden = false;
-  $('#note').textContent = 'Scores are Vulture’s official numbers. Vulture doesn’t publish per-film points, so the film lines are our estimate from box office; “Other points” is whatever else Vulture counts (awards, bonuses).';
+  $('#note').textContent = 'Scores are Vulture’s official numbers. Vulture doesn’t publish per-film points, so each film’s total is worked out from the ~30,000 public rosters (it reproduces every player’s score exactly). The split inside a film (box office vs. awards) is our best read.';
   $('#board').innerHTML = d.players.map(p => {
     const diff = '<small>points</small>';
     return `<li class="${p.rank === 1 ? 'r1' : ''}"><details><summary><span class="rank">${p.rank}</span><span class="name">${esc(p.name)}<small>${p.movies.length} movies</small></span><span class="pts">${p.total}${diff}</span><i class="chev"></i></summary><ul class="movies">${p.movies.map(movieHTML).join('')}${p.other ? `<li><div class="bd" style="margin:8px 0"><span class="t">Other points <small>awards, bonuses &amp; timing — not itemized by Vulture</small></span> <span class="mp ${cls(p.other)}" style="float:right">${fmt(p.other)}</span></div></li>` : ''}</ul></details></li>`;

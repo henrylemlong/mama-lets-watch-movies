@@ -8,6 +8,10 @@ Sources (all public, no API keys):
 Scoring rules follow https://www.vulture.com/movies-league/
 """
 import json, re, sys, gzip, datetime as dt, urllib.request
+try:
+    import numpy as np
+except ImportError:  # inference is optional; the site falls back to box-office estimates
+    np = None
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -126,9 +130,39 @@ def fetch_vulture():
     return url, rows, upd.group(1) if upd else None
 
 
+
+def infer_film_points(rows):
+    """Recover each film's points from Vulture's leaderboard.
+
+    Vulture publishes only each player's total and 8 titles. Every player's score is the sum of their
+    films' points, and a film is worth the same to everyone who drafted it, so with ~30k rosters this is a
+    linear system we can solve exactly. Returns {title: points} for films that are uniquely determined and
+    the max residual (0 means the fit reproduces every player's score).
+    """
+    if np is None:
+        return {}, None
+    rows = [r for r in rows if r.get("movies")]
+    toks = sorted({t.strip() for r in rows for t in r["movies"].split(", ")})
+    ix = {t: i for i, t in enumerate(toks)}
+    A = np.zeros((len(rows), len(toks)))
+    b = np.array([r["score"] for r in rows], dtype=float)
+    for k, r in enumerate(rows):
+        for t in {t.strip() for t in r["movies"].split(", ")}:
+            A[k, ix[t]] = 1
+    x = np.linalg.lstsq(A, b, rcond=None)[0]
+    resid = float(np.abs(A @ x - b).max())
+    _, s, vt = np.linalg.svd(A, full_matrices=False)
+    null = vt[s < 1e-8 * s[0]]
+    unique = np.abs(null).max(axis=0) < 1e-6 if len(null) else np.ones(len(toks), bool)
+    return {t: int(round(x[i])) for t, i in ix.items() if unique[i]}, resid
+
 def main():
     today = dt.date.today()
     url, rows, updated = fetch_vulture()
+    inferred, resid = infer_film_points(rows)
+    if resid is not None and resid > 0.5:
+        print(f"WARNING: film-point fit residual {resid:.2f}; ignoring inferred points", file=sys.stderr)
+        inferred = {}
     league = [r for r in rows if (r.get("leagueName") or "").strip().lower() == LEAGUE]
     total_players = len(rows)
     manual = json.loads((ROOT / "manual.json").read_text()) if (ROOT / "manual.json").exists() else {}
@@ -171,13 +205,18 @@ def main():
             parts.append({"kind": "audience", "label": "Letterboxd", "detail": f"{m['letterboxd']}★ (awarded Mar 1, 2027)", "points": 0, "pending": True})
         for a in m.get("awards", []):
             parts.append({"kind": "award", "label": a["event"], "detail": a["category"], "points": a["points"]})
+        est = sum(p["points"] for p in parts)
+        if title in inferred:
+            rest = inferred[title] - est
+            if rest:
+                parts.append({"kind": "other", "label": "Awards, bonuses & other" if rest > 0 else "Timing adjustment", "detail": "inferred from Vulture's leaderboard", "points": rest})
         res = {
-            "title": title, "status": status,
+            "title": title, "status": status, "exact": title in inferred,
             "release": release.isoformat() if release else None,
             "gross": info["gross"] if info and status == "in theaters" else None,
             "points": sum(p["points"] for p in parts), "breakdown": parts,
             "boxEligible": status != "released before scoring window",
-            "byKind": {k: sum(p["points"] for p in parts if p["kind"] == k) for k in ("box", "critic", "audience", "award")},
+            "byKind": {k: sum(p["points"] for p in parts if p["kind"] == k) for k in ("box", "critic", "audience", "award", "other")},
         }
         cache[k] = res
         return res
@@ -191,8 +230,8 @@ def main():
         players.append({
             "name": r["displayName"],
             "total": r["score"],  # Vulture's official score is the source of truth
-            "estimated": computed,  # our per-film estimate (box office etc.); Vulture doesn't itemize
-            "other": r["score"] - computed,  # awards, bonuses, timing differences: whatever Vulture counts beyond the estimate
+            "estimated": computed,  # sum of per-film points shown (exact when every film was inferred)
+            "other": r["score"] - computed,  # nonzero only if a film on the roster could not be uniquely inferred
             "movies": sorted(ms, key=lambda m: (-m["points"], m["title"])),
         })
     players.sort(key=lambda p: (-p["total"], p["name"].lower()))
