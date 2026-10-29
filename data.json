@@ -1,6 +1,6 @@
 {
  "league": "Mama Lets Watch Movies",
- "generatedAt": "2026-10-29T05:59:26+00:00",
+ "generatedAt": "2026-10-29T21:40:13+00:00",
  "vultureUpdated": "October 28, 2026",
  "vultureSource": "https://www.vulture.com/static/leaderboard/production/cmuec30my000h3b7egrtm2p6h.json",
  "totalPlayersOverall": 30411,
@@ -17,14 +17,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -36,16 +36,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
@@ -209,14 +209,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -228,16 +228,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
@@ -414,14 +414,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -433,16 +433,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
@@ -606,14 +606,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -625,16 +625,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
@@ -798,14 +798,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -817,16 +817,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
@@ -930,29 +930,29 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-23",
-     "gross": 6417057,
+     "gross": 7362900,
      "points": 5,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$6.4M",
-       "points": 6
+       "detail": "$7.4M",
+       "points": 7
       },
       {
        "kind": "other",
        "label": "Timing adjustment",
        "detail": "inferred from Vulture's leaderboard",
-       "points": -1
+       "points": -2
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 6,
+      "box": 7,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": -1
+      "other": -2
      }
     },
     {
@@ -1349,14 +1349,14 @@
      "status": "in theaters",
      "exact": true,
      "release": "2026-10-16",
-     "gross": 45145476,
+     "gross": 25645476,
      "points": 75,
      "breakdown": [
       {
        "kind": "box",
        "label": "Domestic box office",
-       "detail": "$45.1M",
-       "points": 45
+       "detail": "$25.6M",
+       "points": 25
       },
       {
        "kind": "box",
@@ -1368,16 +1368,16 @@
        "kind": "other",
        "label": "Awards, bonuses & other",
        "detail": "inferred from Vulture's leaderboard",
-       "points": 20
+       "points": 40
       }
      ],
      "boxEligible": true,
      "byKind": {
-      "box": 55,
+      "box": 35,
       "critic": 0,
       "audience": 0,
       "award": 0,
-      "other": 20
+      "other": 40
      }
     },
     {
